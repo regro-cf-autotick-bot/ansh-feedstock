@@ -1,4 +1,4 @@
-{% set version = "0.2.0" %}
+{% set version = "0.2.1" %}
 {% set python_min = "3.11" %}
 
 package:
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/a/ansh/ansh-{{ version }}.tar.gz
-  sha256: d1367df77fd66ad9a368100c5b3ecfc069e233e83aed0b13a047eb966858ea93
+  sha256: 392545d479e7ac244caa740c3f43301d48520ef780a97d84c169b75fbf68330d
 
 build:
   noarch: python
